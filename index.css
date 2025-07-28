@@ -1,0 +1,105 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  background-color: #180a15;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #eefce4;
+  font-family: 'Bitcount Prop Single';
+  font-optical-sizing: auto;
+  font-size: 70px;
+}
+
+strong {
+  color: #eefce4;
+}
+
+h2 {
+  color: #b7fa00;
+  font-style: italic;
+}
+
+p,
+li {
+  color: #b7fa00;
+}
+
+h3 {
+  color: #eefce4;
+}
+
+.career-title {
+  margin-top: -40px;
+  font-style: italic;
+}
+
+.summary {
+  font-style: italic;
+}
+
+.skills-cloud-title,
+.skills-tools-title,
+.skills-labs-title {
+  text-align: center;
+  color: #eefce4;
+}
+
+a {
+  color: #b7fa00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #04ffff;
+}
+
+hr {
+  border: 1px solid #eefce4;
+  margin-top: -15px;
+}
+
+.heading {
+  margin: 10;
+}
+
+.contact-subheading {
+  margin-top: -20px;
+}
+
+.skills-langDB {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skills-CTF,
+.first-exp-title,
+.second-exp-title,
+.third-exp-title,
+.first-edu-title,
+.first-cert,
+.second-cert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-indentation {
+  padding-left: 30px;
+}
+
+.first-exp-body,
+.second-exp-body,
+.third-exp-body,
+.first-edu-body {
+  margin-top: -20px;
+}
+
+.skills-lang-list,
+.skills-DB-list {
+  padding-left: 20px;
+}

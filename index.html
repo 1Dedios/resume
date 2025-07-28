@@ -3,61 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <!-- STATUS: FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
     <title>Eddie P Resume</title>
-    <style>
-      body {
-        font-family: 'Arial', sans-serif;
-        line-height: 1.6;
-        background-color: #f4f4f4;
-        color: #333;
-        padding: 40px;
-        max-width: 800px;
-        margin: auto;
-      }
-      h1,
-      h2 {
-        color: #2c3e50;
-      }
-      hr {
-        border: 1px solid #ccc;
-      }
-      .section {
-        margin-bottom: 20px;
-      }
-      ul {
-        padding-left: 20px;
-      }
-    </style>
   </head>
   <body>
-    <h1 id="my-name">Eddie Padilla</h1>
-    <h2>Software Engineer</h2>
-    <p>
-      your_fav_engineer@icloud.com | 914-481-3188 | New Jersey, NJ |
-      <a>Linkedin</a>
-    </p>
+    <div class="heading">
+      <h1 id="my-name">EDDIE PADILLA</h1>
+      <h2 class="career-title">SOFTWARE ENGINEER</h2>
+      <p class='contact-subheading'>
+        your_fav_engineer@icloud.com | 914-481-3188 | New Jersey, NJ |
+        <a href="https://www.linkedin.com/in/epadilla1/" target="_blank" rel="noopener">Linkedin</a>
+      </p>
+      <hr />
+    </div>
 
-    <hr />
-
-    <div class="summary">
-      <h2>Professional Summary</h2>
+    <div>
+      <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
       <hr />
       <p>
-        <strong>Fullstack Software Engineer</strong> with 3.5 years of
-        experience seeking to use his <strong>expertise</strong> in
+        <strong>Technologically agnostic Fullstack Software Engineer</strong>
+        with 3.5 years of experience seeking to use his
+        <strong>expertise</strong> in
         <strong>Application Security & Systems Engineering</strong> to design
-        and deliver secure and scalable products and services that serve the
+        and deliver secure, scalable products and services that serve the
         collective good.
       </p>
     </div>
 
     <div class="skills">
-      <h2>Skills</h2>
+      <h2>SKILLS</h2>
       <hr />
       <div class="skills-langDB">
         <div id="skills-lang">
-          <h3>Programming Languages</h3>
-          <ul>
+          <h3>Languages</h3>
+          <ul class="skills-lang-list">
             <li>SQL</li>
             <li>Bash</li>
             <li>Java</li>
@@ -68,24 +51,39 @@
         </div>
         <div id="skills-DB">
           <h3>Databases</h3>
-          <ul>
+          <ul class="skills-DB-list">
             <li>MySQL</li>
             <li>MongoDB</li>
             <li>PostgreSQL</li>
-            <li>Amazon RDS(AWS)</li>
+            <li>AWS RDS</li>
           </ul>
         </div>
       </div>
-      <div id="skills-CTF">
+      <div class="skills-CTF">
         <div class="skills-cloud">
-          <h3>Cloud & Networking</h3>
+          <h3 class="skills-cloud-title">Cloud</h3>
           <ul>
             <li><strong>AWS</strong> - EC2, S3, IAM, RDS</li>
             <li><strong>GCP</strong> - Compute Engine</li>
           </ul>
         </div>
+        <div class="skills-tools">
+          <h3 class="skills-tools-title">Tools</h3>
+          <ul>
+            <li><strong>Windows</strong> - 10, 11, Server 2022</li> 
+            <li>
+              <strong>VM</strong> - QEMU, KVM, Virtual Box, Digital Ocean
+            </li>
+            <li>
+              <strong>Linux</strong> - Ubuntu Desktop/Server, Kali, Parrot OS
+            </li> 
+            <li>
+              <strong>AI</strong> - Bolt.New, Lovable, OpenAI GPT, Anthropic Claude, Google Gemini
+            </li> 
+          </ul>
+        </div>
         <div class="skills-libs">
-          <h3>Frameworks & Libraries</h3>
+          <h3 class="skills-labs-title">Frameworks</h3>
           <ul>
             <li>React</li>
             <li>Node.js</li>
@@ -93,29 +91,11 @@
             <li>Windows - Active Directory (AD)</li>
           </ul>
         </div>
-        <div class="skills-tools">
-          <h3>Tools</h3>
-          <ul>
-            <li><strong>Windows</strong> - 10, 11, Server 2022</li>
-            <li>
-              <strong>VM</strong> - QEMU, KVM, Virtual Box, Digital Ocean,
-              Docker
-            </li>
-            <li>
-              <strong>Linux</strong> - Ubuntu Desktop, Ubuntu Server, Kali,
-              Parrot OS
-            </li>
-            <li>
-              <strong>AI</strong> - Bolt.new, Lovable, OpenAI GPT, Anthropic
-              Claude, Google Gemini
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
 
     <div class="experience">
-      <h2>Work Experience</h2>
+      <h2>WORK EXPERIENCE</h2>
       <hr />
       <div class="first-exp">
         <div class="first-exp-title">
@@ -131,7 +111,7 @@
           </p>
         </div>
         <div class="first-exp-body">
-          <ul>
+          <ul class="list-indentation">
             <li>
               <strong>Streamlined client flow</strong> in response to clients
               discontinuing the sign up process in the pricing window; thereby
@@ -162,7 +142,7 @@
           </p>
         </div>
         <div class="second-exp-body">
-          <ul>
+          <ul class="list-indentation">
             <li>
               <strong>Streamlined client flow</strong> in response to clients
               discontinuing the sign up process in the pricing window; thereby
@@ -199,10 +179,10 @@
     </div>
 
     <div class="education">
-      <h2>Education</h2>
+      <h2>EDUCATION</h2>
       <hr />
-      <div class="stevens-edu">
-        <div class="stevens-title">
+      <div class="first-edu">
+        <div class="first-edu-title">
           <p>
             <strong>Stevens Institute of Technology</strong><br /><span
               >MSc, Computer Science</span
@@ -210,29 +190,26 @@
           </p>
           <p><strong>May 2026</strong><br /><span>Hoboken, NJ</span></p>
         </div>
-        <div class="stevens-body-edu">
-          <ul>
+        <div class="first-edu-body">
+          <ul class="list-indentation">
             <li>3.6/4.0 GPA</li>
             <li>National Society of Black Engineers (NSBE)</li>
           </ul>
         </div>
       </div>
     </div>
-
     <div class="certs">
-      <h2>Certifications</h2>
+      <h2>CERTIFICATIONS</h2>
       <hr />
-      <ul>
+      <ul class="list-indentation">
         <li>
-          <strong>ISC2 Systems Security Certified Practitioner (SSCP)</strong
-          ><span> in progress</span>
+          <strong>ISC2 Systems Security Certified Practitioner (SSCP)</strong> -
+          in progress
         </li>
         <li>
-          <strong>ISC2 Certified in Cybersecurity (CC)</strong
-          ><span> June 2024</span>
+          <strong>ISC2 Certified in Cybersecurity (CC)</strong> - June 2024
         </li>
       </ul>
-    </div>
 
     <script type="module" src="./driver.js"></script>
   </body>
