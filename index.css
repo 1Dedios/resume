@@ -88,8 +88,17 @@ hr {
   justify-content: space-between;
 }
 
-.list-indentation {
+.titles-and-dates {
+  font-style: italic;
+}
+
+.work-exp-bullets {
   padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+.work-exp-bullets > li {
+  padding-bottom: 10px;
 }
 
 .first-exp-body,

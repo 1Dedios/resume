@@ -38,7 +38,7 @@ const driverObj = driver({
       popover: {
         title: 'Elevator Pitch',
         description:
-          "<img src='https://i.gifer.com/5Dam.gif' style='height: 215px; width: 270px;' /><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'>This is the beginning of begging. Do you like it?!</span>",
+          "<img src='https://i.gifer.com/5Dam.gif' style='height: 215px; width: 270px;' /><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'>This is the beginning of begging. Do you like it?! 😂 What do I mean by technologically agnostic? I am not a 'Java' Developer or a 'JavaScript' developer. I am an Engineer. That means I can solve problems with code regardless of the technological language that was chosen for the project.</span>",
       },
     },
     {
