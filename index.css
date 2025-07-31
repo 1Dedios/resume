@@ -5,9 +5,13 @@
   align-items: center;
 }
 
-button {
+#guidedWalkthroughButton {
   height: 40px;
+  color: #eefce4;
+  font-weight: bold;
+  background-color: #180a15;
   border-radius: 5px;
+  box-shadow: 0 0 20px 5px rgba(183, 250, 0, 1);
 }
 
 body {

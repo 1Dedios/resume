@@ -1,0 +1,25 @@
+.driver-popover {
+  color: #180a15;
+  background-color: #b7fa00;
+}
+
+.driver-popover button {
+  flex: 1;
+  text-align: center;
+  background-color: #180a15;
+  color: #eefce4;
+  border: 2px solid #180a15;
+  text-shadow: none;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 6px;
+}
+
+.driver-popover button:hover {
+  color: #180a15;
+  background-color: #04ffff;
+}
+
+.disableButtons {
+  background-color: orange;
+}

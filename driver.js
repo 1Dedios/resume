@@ -1,10 +1,13 @@
 import { driver } from 'driver.js';
 import 'driver.js/dist/driver.css';
+import './driver.css';
+
+/* TODO: make popovers dark like resume background and text color green */
 
 export const driverObj = driver({
-  overlayColor: 'blue',
-  overlayOpacity: 0.25,
-  showProgress: true,
+  overlayColor: '#eefce4',
+  overlayOpacity: 0.75,
+  showButtons: ['next', 'previous'],
   steps: [
     {
       element: '#my-name',
@@ -52,7 +55,7 @@ export const driverObj = driver({
   ],
 });
 
-const walkthroughButton = document.getElementById('guidedWalkthrough');
+const walkthroughButton = document.getElementById('guidedWalkthroughButton');
 walkthroughButton.addEventListener('click', () => {
   driverObj.drive();
 });
