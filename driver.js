@@ -41,6 +41,14 @@ const driverObj = driver({
           "<img src='https://i.gifer.com/5Dam.gif' style='height: 215px; width: 270px;' /><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'>This is the beginning of begging. Do you like it?!</span>",
       },
     },
+    {
+      element: '#skills',
+      popover: {
+        title: 'The Bread & Butter',
+        description:
+          "<img src='https://i.gifer.com/3b4.gif' style='height: 215px; width: 300px;' />If it's listed here, I either have a project linked to that skill or am working on a project utilizing that skill. I really do enjoy learning.",
+      },
+    },
   ],
 });
 
