@@ -1,7 +1,7 @@
 import { driver } from 'driver.js';
 import 'driver.js/dist/driver.css';
 
-const driverObj = driver({
+export const driverObj = driver({
   overlayColor: 'blue',
   overlayOpacity: 0.25,
   showProgress: true,
@@ -46,13 +46,14 @@ const driverObj = driver({
       popover: {
         title: 'The Bread & Butter',
         description:
-          "<img src='https://i.gifer.com/3b4.gif' style='height: 215px; width: 300px;' />If it's listed here, I either have a project linked to that skill or am working on a project utilizing that skill. I really do enjoy learning.",
+          "<img src='https://i.gifer.com/3b4.gif' style='height: 215px; width: 300px;' />If it's listed here, I either have a project linked to that skill or am working on a project utilizing that skill. I really do enjoy learning 🤓.",
       },
     },
   ],
 });
 
-document.addEventListener('DOMContentLoaded', () => {
+const walkthroughButton = document.getElementById('guidedWalkthrough');
+walkthroughButton.addEventListener('click', () => {
   driverObj.drive();
 });
 

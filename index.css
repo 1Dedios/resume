@@ -1,3 +1,15 @@
+.heading-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  height: 40px;
+  border-radius: 5px;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.5;
