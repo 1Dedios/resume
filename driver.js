@@ -10,11 +10,12 @@ export const driverObj = driver({
     {
       element: '#my-name',
       popover: {
-        title: 'Welcome!!',
+        title:
+          '<span style="display: block; text-align: center">Welcome!!</span>',
         description:
           "<img src='https://i.gifer.com/JUl.gif' style='height: 202.5px; width: 250px;' /> Thank you for opting for the walkthrough version of my resume!",
-        side: 'left',
-        align: 'start',
+        side: 'bottom',
+        align: 'end',
       },
     },
     {
@@ -30,14 +31,16 @@ export const driverObj = driver({
     {
       element: '#linkedin-link',
       popover: {
-        title: 'Social Media for Pros 🤝🏽',
+        title:
+          '<span style="display: block; text-align: center">Social Media for Pros 🤝🏽</span>',
         description: 'Lets connect, we never know what the future holds.',
       },
     },
     {
       element: '#summary',
       popover: {
-        title: 'Elevator Pitch',
+        title:
+          '<span style="display: block; text-align: center">Elevator Pitch</span>',
         description:
           "<img src='https://i.gifer.com/5Dam.gif' style='height: 215px; width: 270px;' /><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'><span style='font-size: 15px; display: block; margin-top: 10px; text-align: left;'>This is the beginning of begging. Do you like it?! 😂 What do I mean by technologically agnostic? I am not a 'Java' Developer or a 'JavaScript' developer. I am an Engineer. That means I can solve problems with code regardless of the technological language that was chosen for the project.</span>",
       },
@@ -45,9 +48,42 @@ export const driverObj = driver({
     {
       element: '#skills',
       popover: {
-        title: 'The Bread & Butter',
+        title:
+          '<span style="display: block; text-align: center">The Bread & Butter</span>',
         description:
           "<img src='https://i.gifer.com/3b4.gif' style='height: 215px; width: 270px;' />If it's listed here, I either have a project linked to that skill or am working on a project utilizing that skill. I really do enjoy learning 🤓.",
+        side: 'top',
+        align: 'middle',
+      },
+    },
+    {
+      element: '.experience',
+      popover: {
+        title:
+          '<span style="display: block; text-align: center">The Main Course 🥘</span>',
+        description:
+          "<img src='https://i.gifer.com/14ba.gif' style='height: 215px; width: 270px;' /> You've found the goods!",
+        side: 'top',
+      },
+    },
+    {
+      element: '.education',
+      popover: {
+        title:
+          '<span style="display: block; text-align: center">I have an edumacation! Err...Umm...</span>',
+        description:
+          "<img src='https://i.gifer.com/40OU.gif' style='height: 215px; width: 270px;' />",
+        side: 'top',
+      },
+    },
+    {
+      element: '.certs',
+      popover: {
+        title:
+          "<span style='display: block; text-align: center'>It's goodbye for now...</span>",
+        description:
+          "<img src='https://i.gifer.com/65SE.gif' style='height: 215px; width: 250px;' /> Certifications, the gems on an Engineer's crown. But I am also sad you're leaving... I hope you enjoyed my walkthrough. 👋🏽",
+        side: 'top',
       },
     },
   ],
@@ -57,6 +93,3 @@ const walkthroughButton = document.getElementById('guidedWalkthroughButton');
 walkthroughButton.addEventListener('click', () => {
   driverObj.drive();
 });
-
-//https://i.imgur.com/EAQhHu5.gif -- spongebob
-//https://i.imgur.com/zed-H9qIiSm.gif
