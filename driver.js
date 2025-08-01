@@ -2,8 +2,6 @@ import { driver } from 'driver.js';
 import 'driver.js/dist/driver.css';
 import './driver.css';
 
-/* TODO: make popovers dark like resume background and text color green */
-
 export const driverObj = driver({
   overlayColor: '#eefce4',
   overlayOpacity: 0.75,
@@ -32,8 +30,8 @@ export const driverObj = driver({
     {
       element: '#linkedin-link',
       popover: {
-        title: '',
-        description: 'Social Media for Pros 🤝🏽',
+        title: 'Social Media for Pros 🤝🏽',
+        description: 'Lets connect, we never know what the future holds.',
       },
     },
     {
@@ -49,7 +47,7 @@ export const driverObj = driver({
       popover: {
         title: 'The Bread & Butter',
         description:
-          "<img src='https://i.gifer.com/3b4.gif' style='height: 215px; width: 300px;' />If it's listed here, I either have a project linked to that skill or am working on a project utilizing that skill. I really do enjoy learning 🤓.",
+          "<img src='https://i.gifer.com/3b4.gif' style='height: 215px; width: 270px;' />If it's listed here, I either have a project linked to that skill or am working on a project utilizing that skill. I really do enjoy learning 🤓.",
       },
     },
   ],

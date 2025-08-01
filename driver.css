@@ -20,6 +20,12 @@
   background-color: #04ffff;
 }
 
-.disableButtons {
-  background-color: orange;
+.driver-popover button:focus {
+  color: #eefce4;
+  background-color: rgba(24, 10, 21, 1);
+}
+
+.driver-popover button:focus:hover {
+  color: #180a15;
+  background-color: rgba(4, 255, 255, 0.7);
 }
