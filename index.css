@@ -14,6 +14,21 @@
   box-shadow: 0 0 20px 5px rgba(183, 250, 0, 1);
 }
 
+#guidedWalkthroughButton:hover {
+  box-shadow: 0 0 70px 5px rgba(183, 250, 0, 1);
+}
+
+#linkedin-link {
+  color: #180a15;
+  font-style: italic;
+  background-color: #b7fa00;
+  border-radius: 4px;
+}
+
+#linkedin-link:hover {
+  box-shadow: 0 0 20px 5px rgba(183, 250, 0, 1);
+}
+
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.5;
@@ -62,15 +77,6 @@ h3 {
 .skills-labs-title {
   text-align: center;
   color: #eefce4;
-}
-
-a {
-  color: #b7fa00;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #04ffff;
 }
 
 hr {
