@@ -135,7 +135,7 @@ hr {
   padding-left: 20px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .heading-name {
     display: flex;
     flex-direction: column;
