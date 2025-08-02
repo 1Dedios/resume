@@ -134,3 +134,16 @@ hr {
 .skills-DB-list {
   padding-left: 20px;
 }
+
+@media screen and (max-width: 425px) {
+  .heading-name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .skills-CTF {
+    display: flex;
+    flex-direction: column;
+  }
+}
