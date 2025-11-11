@@ -135,6 +135,14 @@ hr {
   padding-left: 20px;
 }
 
+.cert-progress {
+  font-style: italic;
+}
+
+.certs {
+  line-height: 30px;
+}
+
 @media screen and (max-width: 485px) {
   .heading-name {
     display: flex;
